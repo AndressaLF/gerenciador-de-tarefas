@@ -1,10 +1,10 @@
 from fastapi import FastAPI
 
-TAREFAS = []
-
 # Cria uma aplicação do zero
-
 app = FastAPI
+
+
+TAREFAS = []
 
 
 @app.get("/tarefas")
