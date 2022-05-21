@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 
 # Cria uma aplicação do zero
-app = FastAPI
+app = FastAPI()
 
 
 TAREFAS = []
